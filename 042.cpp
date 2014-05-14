@@ -38,7 +38,7 @@ int main() {
     string text;
     string line;
     ifstream input;
-    input.open("input.txt");
+    input.open("input042.txt");
     input >> text;
     for (int i = 0; i < text.size(); i++) {
         if (text.substr(i, 1) == "\"") {
